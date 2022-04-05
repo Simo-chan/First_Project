@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dick Size Check</string>
+    <string name="name">Welcome!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="InfoImage">Info Image</string>
+    <string name="welcome_text"> Have you always wanted to know your dick size? Then this app is for you!
+   \n\n\nThe app uses ancient technics of gypsies to tell the exact size of your penis.
+        The given information is 100% true and was proved by scientists multiple times.
+    \n\n\nBy clicking the button below you agree with the terms of the agreement and the privacy policy.
+        \nBoth of them are written down below.
+        \n\nThe agreement: your mum is fat.
+        \nThe privacy policy: I will sell all your personal information to the darkweb.
+
+        \n\n\nSo is your dick big or small? Let\'s find out!
+        </string>
+    <string name="next_button">Next</string>
+    <string name="dick_size_text">Your dick size in cm:</string>
+    <string name="SecondText">Your dick size in cm:</string>
+    <string name="lets_hope_text">Let´s hope it`s bigger than you think</string>
+    <string name="Button_text">Check</string>
+    <string name="tonchikimage">TonchikImage</string>
+</resources>
