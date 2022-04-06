@@ -1,24 +1,22 @@
 package com.example.dicksizecheck
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.widget.ImageView
 import android.widget.Toast
 
 class ThirdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
-
-
+        val clickForFacts: ImageView = findViewById(R.id.tonchikImage)
+        clickForFacts.setOnClickListener { clickForFact() }
     }
 
-    fun clickForFact(view: View) {
+    private fun clickForFact() {
         Toast.makeText(
-            this,
-            "А вы знали, что Тончик, Харин, Крейзи Эпл и Рашн Чака - один и тот же человек?",
+            this, resources.getText(R.string.factAboutTonchik),
             Toast.LENGTH_LONG
         ).show()
-
-
     }
 }

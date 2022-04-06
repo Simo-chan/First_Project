@@ -10,14 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val nextPageButton: Button = findViewById(R.id.next_page)
+        val nextPageButton: Button = findViewById(R.id.nextPage)
         nextPageButton.setOnClickListener {
-            startActivity(
-                Intent(
-                    this, SecondActivity::class.java
-                )
-            )
+            startActivity(Intent(this, SecondActivity::class.java))
         }
-
     }
 }

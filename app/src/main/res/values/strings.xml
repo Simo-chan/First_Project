@@ -19,4 +19,7 @@
     <string name="lets_hope_text">Let´s hope it`s bigger than you think</string>
     <string name="Button_text">Check</string>
     <string name="tonchikimage">TonchikImage</string>
+    <string name="factAboutTonchik">А вы знали, что Тончик, Харин, Крейзи Эпл и Рашн Чака - один и тот же человек?</string>
+    <string name="reactionToast">Wow!So small!</string>
+    <string name="reactionToast2">Wow!So big!</string>
 </resources>

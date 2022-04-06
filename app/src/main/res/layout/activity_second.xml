@@ -8,7 +8,7 @@
     tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/SecondPageText"
+        android:id="@+id/secondPageText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -18,7 +18,7 @@
         android:textSize="25sp" />
 
     <TextView
-        android:id="@+id/result_text"
+        android:id="@+id/resultText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -26,14 +26,14 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/Check_button"
+        android:id="@+id/checkButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/Button_text" />
 
     <Button
-        android:id="@+id/ComeTo3page"
+        android:id="@+id/comeToPage3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

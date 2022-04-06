@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".ThirdActivity">
 
-    <ImageButton
-        android:id="@+id/TonchikImage"
+    <ImageView
+        android:id="@+id/tonchikImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/tonchikimage"
-        android:foreground="@drawable/tonchikimage"
-        android:onClick="clickForFact" />
+        android:src="@drawable/tonchikimage" />
 
 </LinearLayout>
